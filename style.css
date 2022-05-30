@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+}
+
+#mainleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+
+#colorpalletbtn button {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(215, 240, 102);
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#randomcolor {
+    width: 70%;
+    height: 60%;
+    border-radius: 50px;
+    border: 5px solid rgb(10, 10, 10);
+    background-color: rgb(195, 221, 50);
+}
+
+#mainright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+#colorpallet {
+    width: 600px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgb(200, 224, 135);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.sizeup:hover {
+    /* zoom-box: hover we add the transform property, with the scale() method as a value. It takes a parameter 1.5 which is what dictates how much the box element should scale up on hover. 1.5 is like saying 150% of the original size. */
+    transform: scale(1.1);
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+#btn button {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(215, 240, 102);
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#pickedcolortl {
+    width: 75px;
+    height: 75px;
+    
+    background-color: rgb(215, 240, 102);
+    border: 2px solid;
+}
+
+#pickedcolor {
+    width: 75px;
+    height: 75px;
+    
+    border: 2px solid;
+}
+
+#pickedcolortr {
+    width: 75px;
+    height: 75px;
+    
+    background-color: rgb(215, 240, 102);
+    border: 2px solid;
+}
+
+#pickedcolorbr {
+    width: 75px;
+    height: 75px;
+    
+    background-color: rgb(215, 240, 102);
+    border: 2px solid;
+}
+
+#pickedcolorbl {
+    width: 75px;
+    height: 75px;
+    
+    background-color: rgb(215, 240, 102);
+    border: 2px solid;
+}
