@@ -14,6 +14,13 @@ document.querySelector("#ap").addEventListener("click", function () {
         value = value + 1;
     }
     else{
-        alert("Pallet is full please remove a color to add another color")
+        alert("Pallet is full")
     }
 });
+
+document.querySelector("#clear").addEventListener("click",function(){
+    value=1;
+    document.querySelectorAll("#pickedcolor").forEach(function(elem) {
+        elem.style.backgroundColor="rgb(200, 224, 135)";
+    });
+})
